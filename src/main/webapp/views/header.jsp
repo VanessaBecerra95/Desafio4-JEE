@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <header>
-<nav class="navbar bg-body-tertiary fixed-top">
+<nav class="navbar bg-light text-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Proovedores</a>
+    <a class="navbar-brand fw-bold px-2" href="#"><img src="https://i.postimg.cc/g2qGrsmm/supplier.png" alt="Logo" width="75" class="d-inline-block align-text-top mx-2"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,10 +21,10 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="${pageContext.request.contextPath}/index">Listado de Proveedores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="${pageContext.request.contextPath}/edicion">Crear un proveedor</a>
           </li>
         </ul>
       </div>

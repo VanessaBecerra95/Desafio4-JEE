@@ -20,12 +20,14 @@
 </head>
 <jsp:include page="./header.jsp"></jsp:include>
 <body class="d-flex flex-column min-vh-100">
+	<div class="ms-auto">
+		<a href="${pageContext.request.contextPath}/edicion"
+			class="btn btn-primary"><i class="fa-solid fa-plus"></i> Nuevo
+			proveedor</a>
+	</div>
 	<main class="flex-fill">
 		<div class="container">
 			<h1 class="py-5 text-center">Listado de proveedores</h1>
-
-			<a href="${pageContext.request.contextPath}/edicion"
-				class="btn btn-primary">Nuevo</a>
 
 			<table class="table border" id="tblProveedores">
 				<thead class="table-dark">

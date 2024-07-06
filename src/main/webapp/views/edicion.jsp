@@ -13,6 +13,7 @@
 	crossorigin="anonymous">
 </head>
 <body>
+<jsp:include page="./header.jsp"></jsp:include>
 	<div class="container">
 		<h1>Proveedor</h1>
 		<form
@@ -56,5 +57,9 @@
 			<button type="submit" class="btn btn-primary"><i class="fa-solid fa-floppy-disk"></i>Guardar</button>
 		</form>
 	</div>
+		<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+		integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+		crossorigin="anonymous"></script>
 </body>
 </html>
